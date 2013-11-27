@@ -1,14 +1,12 @@
 #include "scope_timer.hpp"
 #include <vector>
 
-#include <windows.h>
-
 /**############################# EXERCISE 1 ################################*/
 //Substitute everywhere OP appears below for the correct operator,
 // *, & or nothing -- the context should make clear which.
-void pass_small_by_value(int  i) {}
-void pass_small_by_reference(int & i) {}
-void pass_small_by_pointer(int * pI) {}
+void pass_small_by_value(int OP i) {}
+void pass_small_by_reference(int OP i) {}
+void pass_small_by_pointer(int OP pI) {}
 
 void call_speed_small()
 {
