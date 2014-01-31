@@ -9,6 +9,6 @@ if(CMAKE_COMPILER_IS_GNUCXX)
   endif()
 endif()
 #####
-set(training_srcs training.cpp scope_timer.hpp)
+set(training_srcs training.cpp scope_timer.hpp deserializer.hpp image_loader.hpp image_loader.cpp)
 source_group("" FILES ${training_srcs})
 add_executable(training ${training_srcs})
