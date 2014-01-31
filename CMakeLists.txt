@@ -8,6 +8,8 @@ if(CMAKE_COMPILER_IS_GNUCXX)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
   endif()
 endif()
+
+include_directories(.)
 #####
 set(training_srcs training.cpp scope_timer.hpp)
 source_group("" FILES ${training_srcs})
